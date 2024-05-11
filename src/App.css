@@ -2,21 +2,46 @@
 
 body{
   font-family: "Poppins", sans-serif;
+  /* background-color:aquamarine; */
+}
+.container{
+  max-width: 90%;
 }
 nav{
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  max-width: 90%;
+ 
+  align-items: center;
 }
 nav button{
-  
+  background-color:rgba(69, 162, 255, 0.824);
+  border: none;
+  width: 100px;
+  height: 40px;
+}
+nav button:hover{
+cursor: pointer;
+background-color: rgb(61, 86, 249);
+color: white;
+}
+nav ul{
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  cursor: pointer;
 }
 .Logo img
 {
   height: 100px;
   width: 100px;
 }
-.contentArea img{
+.content-area{
   display: flex;
+  margin: 0 auto;
+  align-items: center;
+}
+.content-img{
+  width: 600px;
+  height: 300px;
 }

@@ -2,7 +2,7 @@
 function Navigation() {
     return (
         <div>
-      <nav>
+      <nav className="container">
         <div className='Logo'>
           <img src="./images/KX.png" alt="logo" />
         </div>
