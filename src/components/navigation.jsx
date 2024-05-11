@@ -12,7 +12,7 @@ function Navigation() {
           <li href="#">Contact</li>
           <li href="#">About</li>
         </ul>
-        <button>Login</button>
+        <button className="Button">Login</button>
       </nav>
     </div>
 )
